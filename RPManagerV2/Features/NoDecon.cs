@@ -10,5 +10,6 @@ namespace RPManagerV2.Features
 
             ev.IsAllowed = false;
         }
+       
     }
 }

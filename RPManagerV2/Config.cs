@@ -67,7 +67,7 @@ namespace RPManagerV2
         //Single BCs
 
         [Description("A message for SCP-049 when it spawns.")]
-        public string SCP049 { get; set; } = "You are an <color=red>SCP-049</color>, cooperate with your fellows and make some new friends!";
+        public string SCP049     { get; set; } = "You are an <color=red>SCP-049</color>, cooperate with your fellows and make some new friends!";
 
         [Description("A message for SCP-096 when it spawns.")]
         public string SCP096 { get; set; } = "You are an <color=red>SCP-096</color>, cooperate with your fellows and don't cry ;)";

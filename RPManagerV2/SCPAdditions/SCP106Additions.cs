@@ -16,7 +16,7 @@ namespace RPManagerV2.SCPAdditions
         {
             if (!RPManager.Singleton.Config.EscapingPocketMessageEnabled) { return; }
 
-            ev.Player.EnableEffect(Exiled.API.Enums.EffectType.Disabled, 5, false);
+            ev.Player.EnableEffect(Exiled.API.Enums.EffectType.Deafened, 5, false);
             ev.Player.Broadcast(5, RPManager.Singleton.Config.Escaping106PocketBroadcast, Broadcast.BroadcastFlags.Normal, false);
         }
     }
